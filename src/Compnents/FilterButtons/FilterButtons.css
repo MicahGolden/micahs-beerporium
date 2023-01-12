@@ -1,0 +1,19 @@
+.checkboxes {
+  display: grid;
+  border: 1px solid black;
+}
+.checkboxes div {
+  display: flex;
+  border: 1px solid black;
+  background-color: peachpuff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.beer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+.beer-grid div {
+  border: 1px solid black;
+  border-radius: 10px;
+}/*# sourceMappingURL=FilterButtons.css.map */
