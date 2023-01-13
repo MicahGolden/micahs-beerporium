@@ -12,8 +12,21 @@
 .beer-grid{
   display:grid;
   grid-template-columns: repeat(3, 2fr);
+  justify-content: center;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
   div{
-    border: 1px solid black;
+    border: 5px solid black;
     border-radius: 10px;
+    background-color: grey;
+    text-align: center;
+    margin: 10px;
+  }
+  img{
+    min-width: 40px;
+    max-width: 70px;
+    background-color: white;
+
   }
 }
